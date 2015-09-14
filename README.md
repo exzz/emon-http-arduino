@@ -11,12 +11,12 @@ This code has been tested with [this open energy monitor shield](http://openener
 
 - Configure your Arduino yun board with NTP enabled
 - Clone this repo
-- Setup your project with [platform.io](http://plateform.io)
+- Setup your project with [platform.io](http://platform.io)
 ```shell
 platformio init --board=yun
 platformio lib install 116
 ```
-- Customize your setting
+- Customize your settings
 ```c++
 // Energy monitor setup
 emon1.current(1, 60.606);
