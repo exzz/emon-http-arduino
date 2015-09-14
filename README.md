@@ -11,7 +11,7 @@ This code has been tested with [this open energy monitor shield](http://openener
 
 - Configure your Arduino yun board with NTP enabled
 - Clone this repo
-- Setup your project with [platform.io](http://platform.io)
+- Setup your project with [platformio.org](http://platformio.org)
 ```shell
 platformio init --board=yun
 platformio lib install 116
